@@ -26,6 +26,14 @@ function distanceTravelledInFeet(pickUp, dropOff) {
 
 // define calculatesFarePrice(start, destination)
 function calculatesFarePrice(start, destination) {
-    let msg = 0;
-    return msg;
+    let blocks = (start < destination) ? destination - start : start - destination;
+    let distance = blocks * 264;
+    let fare = 0;
+    if (distance <=400) {
+        fare = 0;
+    }
+    else if (distance <= 2000) {
+        fare = (distance-400) * 2 / 100;
+    }
+    return fare;
 }

@@ -1,26 +1,26 @@
 {
   "stats": {
     "suites": 5,
-    "tests": 10,
-    "passes": 10,
+    "tests": 11,
+    "passes": 11,
     "pending": 0,
     "failures": 1,
-    "start": "2023-10-15T09:43:01.658Z",
-    "end": "2023-10-15T09:43:01.967Z",
-    "duration": 309
+    "start": "2023-10-15T09:55:46.591Z",
+    "end": "2023-10-15T09:55:46.907Z",
+    "duration": 316
   },
   "tests": [
     {
       "title": "returns a distance in blocks",
       "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "returns a distance in blocks",
       "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -62,7 +62,7 @@
     {
       "title": "returns a distance in feet",
       "fullTitle": "index.js distanceTravelledInFeet() returns a distance in feet",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -76,6 +76,13 @@
     {
       "title": "gives customers a free sample",
       "fullTitle": "index.js calculatesFarePrice(start, destination) gives customers a free sample",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "charges 2 cents per foot when total feet travelled is between 400 and 2000 (remember the first 400 feet are free!)",
+      "fullTitle": "index.js calculatesFarePrice(start, destination) charges 2 cents per foot when total feet travelled is between 400 and 2000 (remember the first 400 feet are free!)",
       "duration": 0,
       "currentRetry": 0,
       "err": {}
@@ -84,16 +91,16 @@
   "pending": [],
   "failures": [
     {
-      "title": "charges 2 cents per foot when total feet travelled is between 400 and 2000 (remember the first 400 feet are free!)",
-      "fullTitle": "index.js calculatesFarePrice(start, destination) charges 2 cents per foot when total feet travelled is between 400 and 2000 (remember the first 400 feet are free!)",
+      "title": "charges 25 dollars for a distance over 2000 feet",
+      "fullTitle": "index.js calculatesFarePrice(start, destination) charges 25 dollars for a distance over 2000 feet",
       "duration": 0,
       "currentRetry": 0,
       "err": {
-        "message": "expected 0 to equal 2.56",
+        "message": "expected 0 to equal 25",
         "showDiff": true,
         "actual": "0",
-        "expected": "2.56",
-        "stack": "AssertionError: expected 0 to equal 2.56\n    at Context.<anonymous> (test/indexTest.js:53:46)\n    at process.processImmediate (node:internal/timers:476:21)"
+        "expected": "25",
+        "stack": "AssertionError: expected 0 to equal 25\n    at Context.<anonymous> (test/indexTest.js:57:46)\n    at process.processImmediate (node:internal/timers:476:21)"
       }
     }
   ],
@@ -101,14 +108,14 @@
     {
       "title": "returns a distance in blocks",
       "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "returns a distance in blocks",
       "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -150,7 +157,7 @@
     {
       "title": "returns a distance in feet",
       "fullTitle": "index.js distanceTravelledInFeet() returns a distance in feet",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -164,6 +171,13 @@
     {
       "title": "gives customers a free sample",
       "fullTitle": "index.js calculatesFarePrice(start, destination) gives customers a free sample",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "charges 2 cents per foot when total feet travelled is between 400 and 2000 (remember the first 400 feet are free!)",
+      "fullTitle": "index.js calculatesFarePrice(start, destination) charges 2 cents per foot when total feet travelled is between 400 and 2000 (remember the first 400 feet are free!)",
       "duration": 0,
       "currentRetry": 0,
       "err": {}
