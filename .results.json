@@ -1,27 +1,60 @@
 {
   "stats": {
     "suites": 2,
-    "tests": 0,
-    "passes": 0,
+    "tests": 2,
+    "passes": 2,
     "pending": 0,
     "failures": 1,
-    "start": "2023-10-15T09:05:11.380Z",
-    "end": "2023-10-15T09:05:11.949Z",
-    "duration": 569
+    "start": "2023-10-15T09:13:15.505Z",
+    "end": "2023-10-15T09:13:16.212Z",
+    "duration": 707
   },
-  "tests": [],
-  "pending": [],
-  "failures": [
+  "tests": [
     {
       "title": "returns a distance in blocks",
       "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
-      "duration": 0,
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns a distance in blocks",
+      "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "calculates distances below 42nd street",
+      "fullTitle": "index.js distanceFromHqInBlocks() calculates distances below 42nd street",
+      "duration": 2,
       "currentRetry": 0,
       "err": {
-        "stack": "ReferenceError: distanceFromHqInBlocks is not defined\n    at Context.<anonymous> (test/indexTest.js:6:7)\n    at process.processImmediate (node:internal/timers:476:21)",
-        "message": "distanceFromHqInBlocks is not defined"
+        "message": "expected -8 to equal 8",
+        "showDiff": true,
+        "actual": "-8",
+        "expected": "8",
+        "stack": "AssertionError: expected -8 to equal 8\n    at Context.<anonymous> (test/indexTest.js:14:45)\n    at process.processImmediate (node:internal/timers:476:21)"
       }
     }
   ],
-  "passes": []
+  "passes": [
+    {
+      "title": "returns a distance in blocks",
+      "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns a distance in blocks",
+      "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
 }
