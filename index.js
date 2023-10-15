@@ -23,3 +23,9 @@ function distanceTravelledInFeet(pickUp, dropOff) {
     let  distance = blocks * 264;
     return distance;
 }
+
+// define calculatesFarePrice(start, destination)
+function calculatesFarePrice(start, destination) {
+    let msg = 0;
+    return msg;
+}
