@@ -4,7 +4,7 @@ const hq = 42;
 let pickUp; 
 // define function distanceFromHqInBlocks
 function distanceFromHqInBlocks(pickUp) {
-    let blocks = pickUp - hq;
+    let blocks = (pickUp < 42) ? (hq - pickUp) : (pickUp - hq);
     return blocks;
 
 }
