@@ -1,19 +1,19 @@
 {
   "stats": {
     "suites": 5,
-    "tests": 12,
-    "passes": 12,
+    "tests": 13,
+    "passes": 13,
     "pending": 0,
-    "failures": 1,
-    "start": "2023-10-15T09:59:06.500Z",
-    "end": "2023-10-15T09:59:06.794Z",
-    "duration": 294
+    "failures": 0,
+    "start": "2023-10-15T10:04:56.798Z",
+    "end": "2023-10-15T10:04:57.103Z",
+    "duration": 305
   },
   "tests": [
     {
       "title": "returns a distance in blocks",
       "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -90,32 +90,25 @@
     {
       "title": "charges 25 dollars for a distance over 2000 feet",
       "fullTitle": "index.js calculatesFarePrice(start, destination) charges 25 dollars for a distance over 2000 feet",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not allow rides over 2500 feet",
+      "fullTitle": "index.js calculatesFarePrice(start, destination) does not allow rides over 2500 feet",
       "duration": 0,
       "currentRetry": 0,
       "err": {}
     }
   ],
   "pending": [],
-  "failures": [
-    {
-      "title": "does not allow rides over 2500 feet",
-      "fullTitle": "index.js calculatesFarePrice(start, destination) does not allow rides over 2500 feet",
-      "duration": 1,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected 25 to equal 'cannot travel that far'",
-        "showDiff": true,
-        "actual": 25,
-        "expected": "cannot travel that far",
-        "stack": "AssertionError: expected 25 to equal 'cannot travel that far'\n    at Context.<anonymous> (test/indexTest.js:61:46)\n    at process.processImmediate (node:internal/timers:476:21)"
-      }
-    }
-  ],
+  "failures": [],
   "passes": [
     {
       "title": "returns a distance in blocks",
       "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -192,6 +185,13 @@
     {
       "title": "charges 25 dollars for a distance over 2000 feet",
       "fullTitle": "index.js calculatesFarePrice(start, destination) charges 25 dollars for a distance over 2000 feet",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not allow rides over 2500 feet",
+      "fullTitle": "index.js calculatesFarePrice(start, destination) does not allow rides over 2500 feet",
       "duration": 0,
       "currentRetry": 0,
       "err": {}
