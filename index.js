@@ -8,3 +8,10 @@ function distanceFromHqInBlocks(pickUp) {
     return blocks;
 
 }
+
+// define function distanceFromHqInFeet
+function distanceFromHqInFeet(pickUp) {
+    let blocks = distanceFromHqInBlocks(pickUp);
+    let distance = blocks * 264;
+    return distance;
+}
